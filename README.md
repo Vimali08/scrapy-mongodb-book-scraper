@@ -30,8 +30,10 @@ This project is a **web scraper built with Scrapy** that extracts book details f
 ```bash
 git clone https://github.com/your-username/scrapy-mongodb-book-scraper.git
 cd scrapy-mongodb-book-scraper
+```
 
-2️⃣ Create & activate a virtual environment
+### 2️⃣ Create & activate a virtual environment
+```
 # Windows
 python -m venv .venv
 .\.venv\Scripts\activate
@@ -39,43 +41,44 @@ python -m venv .venv
 # Mac/Linux
 python3 -m venv .venv
 source .venv/bin/activate
+```
 
-3️⃣ Install dependencies
+### 3️⃣ Install dependencies
+```
 pip install -r requirements.txt
+```
 
-4️⃣ Ensure MongoDB is running locally
+### 4️⃣ Ensure MongoDB is running locally
+```
 # Example: Start MongoDB service (depends on OS)
 mongod
+```
 
-5️⃣ Run the spider
+### 5️⃣ Run the spider
+```
 scrapy crawl book
+```
 
-📸 Project Screenshot
+### 📸 Project Screenshot
 
 ![Project Screenshot](screenshot.png)
 
-📄 Sample document in MongoDB
-
+### 📄 Sample document in MongoDB
+```
 {
     "title": "1,000 Places to See Before You Die",
     "price": "£26.00",
     "url": "1000-places-to-see-before-you-die_1/index.html"
 }
+```
 
-📌 Future Improvements
 
-Support for multiple websites
-
-Add more book details (author, rating, stock availability)
-
-Export data to CSV/Excel
-
-Deploy spider with Scrapy Cloud
-
-📢 Author
+### 📢 Author
 
 Developed by Vimali Subramanian
+
 📬 Reach me on [LinkedIn](https://www.linkedin.com/in/vimali-s-564405253/)
+
 
 
 
